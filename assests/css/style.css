@@ -1,0 +1,303 @@
+.webfonts{
+    font-family: 'Poppins', sans-serif;
+}
+.webtext{
+    font-size:16px;
+    font-weight:400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+}
+.webbutton{
+    border-radius: 10px 15px 25px 40px;
+    background-color:rgb(10, 136, 240);
+    color:white;border:none;
+    border:solid 1px rgb(10, 136, 240)
+}
+.webbutton:hover{
+  border:1px solid  rgb(10, 136, 240);
+    color:rgb(10, 136, 240);
+    background:white
+}
+.webimg{
+    border-radius: 30px;
+}
+.webbgcolor{
+    background-color:rgb(209, 224, 238);
+}
+.webicon{
+    border:solid 3px grey;
+    border-radius:100%;
+    background-color:rgb(224, 238, 250);
+    margin-top:-50px
+}
+.webtabbutton{
+    border-radius: 10px 15px 25px 40px;
+    border:solid 2px rgb(10, 136, 240);
+    background:white
+}
+.webtabbutton:hover{
+    color:white;
+    background:rgb(10, 136, 240)
+}
+.webcarbg{
+    background-color: #e0e5ee;
+}
+.webbgimg{
+    background-image: url(../images/pexels-adrien-olichon-2387793.jpg);
+}
+.web-1{
+    border-radius:20px
+}
+.web-2{
+    width:50px ;height:50px
+}
+.web-3{
+    background:#f1f3f6
+}
+.web-4{
+    background-color:rgb(2, 138, 250);
+}
+.web-5:hover{
+    border-bottom:solid 1px white
+}
+@media only screen and (min-width:300px) and (max-width:800px){
+.web-6{
+    border-top:solid 0.1px white;
+    margin-top:15px;
+    margin-bottom:15px
+}
+}
+.web-7{
+    margin-top:100px
+}
+@media only screen and (min-width:300px) and (max-width:800px){
+    .web-7{
+        margin-top:90px
+    }
+}
+
+.web-8{
+    font-size:13px;
+    font-weight:400;
+}
+.web-9{
+    color:#0f25c9
+}
+.web-10{
+    background-image:url(../images/banner2.jpg);
+    background-size:100% 100%;
+    height:300px;
+    width:100%;
+   
+}
+
+.web-11{
+    width:40px;height:40px;border-radius:100%
+}
+.web-12{
+    font-size:12px;font-weight:400
+}
+.web-13::placeholder{
+    font-size:14px;
+    font-weight:400;
+    padding:10px;
+    
+}
+.web-13{
+    border-radius:8px;
+    border:solid 2px grey
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal1 {
+    position: relative;
+    opacity: 0;
+  }
+  .reveal1.active {
+    opacity: 1;
+  }
+ 
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+ 
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+  .web-14{
+    background-image: url(../images/technology-6873010_1920.jpg);
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  @media only screen and (min-width:300px) and (max-width:800px){
+    .web-14{
+      background-image: url(../images/technology-6873010_1920.jpg);
+      background-size: 100% 100%;
+    
+      background-repeat: no-repeat;
+    }
+  }
+.web-15{
+  background-color:rgb(238, 234, 234)
+}
+@media only screen and (min-width:300px) and (max-width:800px){
+.web-16{
+  flex-wrap: wrap-reverse;
+}
+}
+
+.web-17{
+  width:73px;
+  height:70px
+}
+
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+ 
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 1px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 1px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+@media only screen and (min-width:300px) and (max-width:800px){
+  .hr-lines{
+    position: relative;
+    max-width: 300px;
+   
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 60px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 60px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+}
+.tabbutton button.active {
+  background-color:rgb(2, 138, 250) ;
+  color:white
+}
+.tab button.active {
+  background-color:rgb(2, 138, 250) ;
+  color:white
+}
+
+.web-18{
+  border-radius:9px;
+  border:solid 1px rgb(146, 146, 146)
+}
+
+.navbar-vertical{
+  display:block
+}
+
+@media only screen and (min-width:300) and (max-width:800px){
+.ambulance-bg{
+  background-image:url(../images/ambulancebgimg.jpg);
+  background-size: none;
+  background-repeat: no-repeat;
+
+ 
+}
+}
+.ambulance-bg{
+  background-image:url(../images/ambulancebgimg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+
+.web-19{
+  border-radius:12px
+}
